@@ -1,0 +1,47 @@
+  /*****************************
+Media Queries for TABs:
+******************************/
+
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+/*****************************
+Media Queries for MOBILEs:
+******************************/
+@media only screen and (max-width: 896px){
+    
+    .main-container{
+        grid-template-columns: 260px;
+    }
+
+    .navclass{
+        grid-template-columns: 260px;
+
+    }
+    .footerclass{
+        grid-template-columns: 260px;
+
+    }
+}
+body {
+    background: url('https://loveincorporated.blob.core.windows.net/contentimages/gallery/6b0a97dd-0f8f-402a-8436-65513a94b333-burgerone.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
